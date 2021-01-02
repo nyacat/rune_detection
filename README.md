@@ -17,13 +17,15 @@ weights yolov4的Pre-trained weights
 
 ### 特点
 
-- 响应速度极快[^1]
-- 识别率高达99%[^2][^3]
+- 响应速度极快<sup id="a1">[1](#f1)</sup>
+- 识别率高达99%<sup id="a2">[2](#f2)</sup> <sup id="a3">[3](#f3)</sup>
 - 提供http api接入,方便多平台多语言调用
 
-[^1]: NVIDIA GeForce 750Ti级别显卡能做到5fps,即1秒识别5张图片
-[^2]: 识别率为当前数据集训练8000step后的结果
-[^3]: 该识别率并未包含矿,花的数据,即矿,花的数据集需自行采集并重新训练
+<b id="f1">1</b> NVIDIA GeForce 750Ti级别显卡能做到5fps,即1秒识别5张图片 [↩](#a1)
+
+<b id="f2">2</b> 识别率为当前数据集训练8000step后的结果 [↩](#a2)
+
+<b id="f3">3</b> 该识别率并未包含矿,花的数据,即矿,花的数据集需自行采集并重新训练 [↩](#a3)
 
 
 
@@ -97,7 +99,7 @@ Windows/Linux都必须安装CUDA 10.1,暂未测试CUDA 11兼容性,若无N卡无
    1. 这里注意类别**名字**为up down left right
    2. 顺序必须跟上面的顺序一致
 
-4. 把标记完成的数据集文件夹放到**`dataset_tools`**里,并改名为**final**
+4. 把标记完成的数据集文件夹放到**dataset_tools**里,并改名为**final**
 
 5. 生成的**train-runes.txt**和**test-runes.txt**放入项目根目录的**data**下
 
