@@ -1,3 +1,20 @@
+# project skip files
+.idea/*
+!backup/
+backup/*
+bad.list
+!data/runes/
+data/runes/*
+data/*.txt
+old_rune_sys/*
+server/*
+test/*
+!weights/
+weights/*
+darknet*
+pthreadVC2.dll
+libs/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,5 @@
+classes = 4
+train  = data/train-runes.txt
+valid  = data/test-runes.txt
+names = data/runes.names
+backup = backup/
