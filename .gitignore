@@ -1,17 +1,19 @@
 # project skip files
 .idea/*
-backup/*
+/backup/*
+!/backup/**/.gitkeep
 bad.list
-data/runes/*
-data/*.txt
-old_rune_sys/*
-server/*
-test/*
-!weights/
-weights/*
+/data/*.txt
+/data/runes/*
+!/data/runes/**/.gitkeep
+/old_rune_sys/*
+/server/*
+/test/*
+/weights/*
+!/weights/**/.gitkeep
 darknet*
 pthreadVC2.dll
-libs/*
+/libs/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
