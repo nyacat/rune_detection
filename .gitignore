@@ -1,9 +1,7 @@
 # project skip files
 .idea/*
-!backup/
 backup/*
 bad.list
-!data/runes/
 data/runes/*
 data/*.txt
 old_rune_sys/*
